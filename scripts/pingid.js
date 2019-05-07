@@ -112,7 +112,7 @@ function get_jwt_header() {
 
 	var jwtHeader = {
 		"alg" : "HS256",
-		"org_alias" : config.org_alias,
+		"orgAlias" : config.org_alias,
 		"token" : config.token
 	}
 	
